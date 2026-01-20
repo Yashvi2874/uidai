@@ -1,0 +1,40 @@
+=== MACHINE LEARNING ANALYSIS REPORT ===
+
+Dataset Size: (25, 13)
+Features Engineered: 5
+
+MODEL PERFORMANCE:
+
+ENROLMENTS Prediction:
+  Random Forest: R² = 0.729, RMSE = 66414
+  Gradient Boosting: R² = 0.661, RMSE = 74295
+
+DEMO_UPDATES Prediction:
+  Random Forest: R² = -0.274, RMSE = 34947
+  Gradient Boosting: R² = -0.057, RMSE = 31834
+
+BIOMETRIC_UPDATES Prediction:
+  Random Forest: R² = -0.251, RMSE = 10947
+  Gradient Boosting: R² = -1.345, RMSE = 14986
+
+
+KEY INSIGHTS:
+
+Performance Summary:
+  top_enrolment_states: {'West Bengal': 325262.2, 'Bihar': 320406.8, 'Maharashtra': 299234.8, 'Madhya Pradesh': 295812.6, 'Uttar Pradesh': 250036.0}
+
+Recommendations:
+  • Focus on states with high dependency ratios for targeted outreach programs
+  • Implement mobile enrollment units in rural areas with low biometric update rates
+  • Develop digital literacy programs for demographic update adoption
+  • Establish regional processing centers in high-volume states
+
+Risk Factors:
+  • States with declining enrollment growth rates need immediate attention
+  • High update dependency indicates potential authentication issues
+  • Seasonal variations may affect service delivery consistency
+
+Opportunities:
+  • Digital transformation initiatives can reduce friction indices
+  • Partnership with local governments for awareness campaigns
+  • Technology integration for real-time monitoring and reporting
